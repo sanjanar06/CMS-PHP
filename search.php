@@ -36,11 +36,8 @@
                             echo "<h1> NO RESULT </h1>";
                         }
                         else{
-
-                            $query="SELECT * FROM posts";
-                            $select_all_posts_query=mysqli_query($connection,$query);
         
-                            while($row = mysqli_fetch_assoc($select_all_posts_query))
+                            while($row = mysqli_fetch_assoc($search_query))
                             {
         
                                     $post_title= $row['post_title'];
@@ -73,11 +70,11 @@
                                             <hr>
         
                                     
-                                <?php } ?>
-                    <?php     } ?>
+                                <?php } 
+                         }
                     
                         
-                <?php } ?>
+                 } ?>
 
 
 
