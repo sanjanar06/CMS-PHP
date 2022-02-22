@@ -54,7 +54,7 @@
                     <?php } ?>
 
                 
-
+            </div>        
             <!-- Blog Sidebar Widgets Column -->
             <?php include "includes/sidebar.php"; ?>
 
@@ -63,5 +63,7 @@
 
         <hr>
 
+    
 
- <?php include "includes/footer.php"; ?>
+    <?php include "includes/footer.php"; ?>
+ </div>
